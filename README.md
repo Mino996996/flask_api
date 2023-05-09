@@ -8,7 +8,7 @@ windows 用（コマンドプロンプトで。bash は NG）
 
 ```
 環境の作成
-python3 -m venv venv
+py -3 -m venv venv
 
 環境の作成
 venv\Scripts\activate
