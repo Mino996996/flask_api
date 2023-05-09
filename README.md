@@ -16,9 +16,13 @@ venv\Scripts\activate
 立ち上がった仮想環境でFlaskのインストール
 pip install Flask
 
+サーバー立ち上げ
+flask --app hello run --host=0.0.0.0
+
 ```
 
 以降はコマンドプロンプトから
 venv\Scripts\activate
+flask --app hello run --host=0.0.0.0
 
 で OK。
